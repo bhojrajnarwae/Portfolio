@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhojraj - Personal Portfolio</title>
+  <script src="assets/js/tailwind.js"></script>
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/avatar-1.png" type="image/x-icon" class="rounded-md" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/1724172688822.jpg" class="rounded-xl" alt="Shivang Yadav" />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Bhojraj Narware">Bhojraj Narware</h1>
+
+          <div class="flex item-center">
+            <p class="title">Web developer</p>
+          </div>
+
+          <ul class="social-list py-4">
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/bhojraj-narware-40a487259/" target="_blank" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://x.com/BhojrajNarware" target="_blank" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/BhojrajCSE21" target="_blank" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:bhojrajnarware@gmail.com" class="contact-link">bhojrajnarware@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 779646XXXX</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Nagpur, India</address>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m a student with a passion for UI/UX design and web development. I love finding ways to simplify complex
+            ideas into clean, beautiful designs that are easy to use. I aim to create websites that not only function
+            well but also look great and reflect the brand's identity.
+          </p>
+
+          <p>
+            I enjoy adding a personal touch to each project, making sure the end result is both eye-catching and
+            user-friendly. I'm excited to learn more and bring creativity to every project I work on. My studies and
+            hands-on work come together, driving my dedication to develop meaningful tech solutions.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Developed android apps with ionic and react native.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">Aspiring enthusiast eager to explore AI techniques to solve real-world
+                  problems.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials hidden">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Daniel lewis
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Bhojraj was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of
+                    experience and is very concerned about the needs of
+                    client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing elit, seds do et eiusmod tempor
+                    incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Jessica miller
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Bhojraj was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of
+                    experience and is very concerned about the needs of
+                    client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing elit, seds do et eiusmod tempor
+                    incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Emily evans
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Bhojraj was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of
+                    experience and is very concerned about the needs of
+                    client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing elit, seds do et eiusmod tempor
+                    incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Henry william
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Bhojraj was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of
+                    experience and is very concerned about the needs of
+                    client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing elit, seds do et eiusmod tempor
+                    incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Shivang was hired to create a corporate identity. We were
+                  very pleased with the work done. She has a lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum
+                  dolor sit amet, ullamcous cididt consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels
+                  dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients hidden">
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo" />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo" />
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        <header class="flex">
+          <h2 class="h2 article-title">Resume</h2>
+          <a target="_blank"
+            href="https://drive.google.com/file/d/1Js_FxWArSoURMy4zx_PB9Vb3GDgP1GBN/view?usp=drive_link"
+            class="icon-box my-2 sm:my-3 mx-3 h-7 w-7 cursor-pointer">
+            <img src="assets/images/resume.gif" class="invert h-5 w-5" alt="Resume" />
+            <!-- <ion-icon name="book-outline"></ion-icon> -->
+          </a>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Mobile Application Intern</h4>
+              <div class="flex item-center">
+                <a class="h4" target="_blank" href="https://leadlly.in/">Tars Technologies |
+                </a>
+                <span class="mx-2 my-1 text-sm"> June 2024 — Present</span>
+              </div>
+              <p class="timeline-text">
+                Developed and optimized mobile applications, boosting efficiency by 30%. <br />
+                Proficient in tools like React Native, Android Studio, and Git, and collaborated with design teams to
+                deliver user-friendly and
+                visually appealing interfaces.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Developer Intern</h4>
+              <div class="flex item-center">
+                <a class="h4" href="https://settyl.com/">Clustor Computing |
+                </a>
+                <span class="mx-2 my-1 text-sm"> June 2024 — Aug 2024</span>
+              </div>
+              <p class="timeline-text">
+                Worked on the design and development of the Clustor Computing website.
+                <br />
+                Collaborated with a team to design the entire frontend of the
+                website using React and JavaScript.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Frontend developer</h4>
+              <div class="flex item-center">
+                <a class="h4" href="#">Asterisc Technocrat | </a>
+                <span class="mx-2 my-1 text-sm"> June 2023 — July 2023</span>
+              </div>
+
+              <p class="timeline-text">
+                Developed a range of websites, including landing pages, e-commerce sites, and portfolios. <br />
+                Leveraged HTML, CSS, JavaScript, and React to build responsive, visually appealing web pages, while
+                ensuring
+                optimal performance and speed through best coding and design practices.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                S.b. Jain Institute of Technology
+              </h4>
+
+              <span>2021 - 2025</span>
+
+              <p class="timeline-text">Bachelor of Technology</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Languages</h5>
+              </div>
+              <div class="flex">
+                <div class="icon-box">
+                  <a href="https://www.python.org/" target="_blank" rel="noreferrer">
+                    <img src="https://tinkercademy.com/wp-content/uploads/2018/04/python-icon-300x300.png" alt="python"
+                      width="35" height="35" class="rounded-md" />
+                  </a>
+                </div>
+                <div class="icon-box">
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                      alt="javascript" width="35" height="35" class="rounded-md" />
+                  </a>
+                </div>
+                <div class="icon-box">
+                  <a href="https://www.w3schools.com/java/" target="_blank" rel="noreferrer">
+                    <img
+                      src="https://download.logo.wine/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.png"
+                      alt="Java" width="35" height="35" class="rounded-md" />
+                  </a>
+                </div>
+                <div class="icon-box">
+                  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"
+                      width="35" height="35" class="rounded-md" />
+                  </a>
+                </div>
+              </div>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div> -->
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Frontend</h5>
+              </div>
+              <div class="flex">
+                <div class="icon-box">
+                  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                      alt="react" width="35" height="35" class="rounded-md" />
+                  </a>
+                </div>
+                <div class="icon-box">
+                  <a href="https://redux.js.org" target="_blank" rel="noreferrer">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+                      alt="redux" width="35" height="35" class="rounded-md" />
+                  </a>
+                </div>
+
+                <div class="icon-box">
+                  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                      alt="html5" width="35" height="35" class="rounded-md" />
+                  </a>
+                </div>
+
+
+                <div class="icon-box">
+                  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                      alt="css3" width="35" height="35" class="rounded-md" />
+                  </a>
+                </div>
+                <div class="icon-box">
+                  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+                    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind"
+                      width="35" height="35" class="rounded-md" />
+                  </a>
+                </div>
+              </div>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div> -->
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Backend</h5>
+              </div>
+              <div class="flex">
+                <div class="icon-box">
+                  <a href="https://expressjs.com" target="_blank" rel="noreferrer">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLA972a1NXwGHTIpgjxpRdu1DD5te1evggDgjNvM_FcbtGxaPYrHbV27RNzJSA_ZhrY28&usqp=CAU"
+                      alt="express" width="35" height="35" class="rounded-md" />
+                  </a>
+                </div>
+                <div class="icon-box">
+                  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                      alt="nodejs" width="35" height="35" class="rounded-md" />
+                  </a>
+                </div>
+
+              </div>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div> -->
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Database</h5>
+              </div>
+              <div class="flex">
+                <div class="icon-box">
+                  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+                      alt="mongodb" width="35" height="35" class="rounded-md" />
+                  </a>
+                </div>
+                <div class="icon-box">
+                  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+                      alt="postgresql" width="35" height="35" class="rounded-md" />
+                  </a>
+                </div>
+
+              </div>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div> -->
+            </li>
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Tools</h5>
+              </div>
+              <div class="flex">
+                <div class="icon-box">
+                  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+                    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="35"
+                      height="35" class="rounded-md" />
+                  </a>
+                </div>
+                <div class="icon-box">
+                  <a href="https://postman.com" target="_blank" rel="noreferrer">
+                    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="35"
+                      height="35" class="rounded-md" />
+                  </a>
+                </div>
+                <div class="icon-box">
+                  <a href="https://cloud.google.com/free?utm_source=bing&utm_medium=cpc&utm_campaign=japac-IN-all-en-dr-bkws-all-all-trial-e-dr-1009882&utm_content=text-ad-none-none-DEV_c-CRE_-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt+~+GCP+~+General_+Core+Brand-KWID_43700071941776986-kwd-74560901257590:loc-90-userloc_158615&utm_term=KW_gcp-ST_gcp&gclid=58eb88ee26bc179fe2deee2b7855cc12&gclsrc=3p.ds&msclkid=58eb88ee26bc179fe2deee2b7855cc12&hl=en" target="_blank" rel="noreferrer">
+                    <img src="https://www.gend.co/hs-fs/hubfs/gcp-logo-cloud.png?width=730&name=gcp-logo-cloud.png" alt="gcp" width="35"
+                      height="45" class="rounded-md" />
+                  </a>
+                </div>
+
+              </div>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div> -->
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Website</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>JavaScript</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>In Progress</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Website</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>JavaScript</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>In Progress</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <!-- Website Category -->
+            <li class="project-item active" data-filter-item data-category="website">
+              <a target="_blank" href="https://bhojraj-ecommerce.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/evara.png" alt="Infinity" loading="lazy" />
+                </figure>
+                <h3 class="project-title">Evara - An Ecommerce Store</h3>
+              </a>
+              <div class="flex">
+                <p class="project-category">Website</p>
+                <a href="https://github.com/BhojrajCSE21/Asterisc_Technocrat_Internship?tab=readme-ov-file"
+                  target="_blank" class="social-link">
+                  <ion-icon name="logo-github" class="invert-[.6] h-5 w-5 mx-2 my-[2px]"></ion-icon>
+                </a>
+              </div>
+            </li>
+            <li class="project-item active" data-filter-item data-category="website">
+              <a target="_blank" href="https://codemate-hospitalwebsite.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Revo.png" alt="marketplace" loading="lazy" />
+                </figure>
+                <h3 class="project-title">Revo</h3>
+              </a>
+              <div class="flex">
+                <p class="project-category">Website</p>
+                <a href="https://github.com/BhojrajCSE21/Codemate-Project" target="_blank" class="social-link">
+                  <ion-icon name="logo-github" class="invert-[.6] h-5 w-5 mx-2 my-[2px]"></ion-icon>
+                </a>
+              </div>
+            </li>
+            <li class="project-item active" data-filter-item data-category="website">
+              <a target="_blank" href="https://enchanting-paprenjak-86d639.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/hike.png" alt="blinkbuy" loading="lazy" />
+                </figure>
+                <h3 class="project-title">Let's Go Hike</h3>
+              </a>
+              <div class="flex">
+                <p class="project-category">Website</p>
+                <a href="https://github.com/BhojrajCSE21/Oasis_Infobyte_Internship" target="_blank" class="social-link">
+                  <ion-icon name="logo-github" class="invert-[.6] h-5 w-5 mx-2 my-[2px]"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <!-- JavaScript Category -->
+            <li class="project-item active" data-filter-item data-category="javascript">
+              <a target="_blank" href="https://whimsical-zabaione-7b994f.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/maxresdefault.jpg" alt="snake" loading="lazy" />
+                </figure>
+                <h3 class="project-title">Temperature Calculator</h3>
+              </a>
+              <div class="flex">
+                <p class="project-category">JavaScript</p>
+                <a href="https://github.com/BhojrajCSE21/Oasis_Infobyte_Internship" target="_blank" class="social-link">
+                  <ion-icon name="logo-github" class="invert-[.6] h-5 w-5 mx-2 my-[2px]"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <!-- Machine Learning Category -->
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a target="_blank" href="https://github.com/bhojrajnarwae/Kino-AI-Metadata-Engine">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/metadata.jpg" alt="travelbuddy" loading="lazy" />
+                </figure>
+                <h3 class="project-title">Video MetaData Extractor</h3>
+              </a>
+              <div class="flex">
+                <p class="project-category">Machine Learning</p>
+                <a href="https://github.com/bhojrajnarwae/Kino-AI-Metadata-Engine" target="_blank" class="social-link">
+                  <ion-icon name="logo-github" class="invert-[.6] h-5 w-5 mx-2 my-[2px]"></ion-icon>
+                </a>
+              </div>
+            </li>
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a target="_blank" href="https://github.com/bhojrajnarwae/AI-Semantic-Search-Engine">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/search.jpg" alt="travelbuddy" loading="lazy" />
+                </figure>
+                <h3 class="project-title">AI Semantic Search</h3>
+              </a>
+              <div class="flex">
+                <p class="project-category">Machine Learning</p>
+                <a href="https://github.com/bhojrajnarwae/AI-Semantic-Search-Engine" target="_blank"
+                  class="social-link">
+                  <ion-icon name="logo-github" class="invert-[.6] h-5 w-5 mx-2 my-[2px]"></ion-icon>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+      <!--
+        - #BLOG
+      -->
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d119088.32776274356!2d79.0986752!3d21.1320832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1724205715258!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=New%20Delhi+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="400" height="300" loading="lazy"></iframe> -->
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
